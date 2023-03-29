@@ -1,2 +1,2 @@
 # mindfulness-app
-Join us in reducing student stress levels! Contribute to our Android app that offers stress management tools, resources, and directs students to relevant medical consultations based on their stress score. Let's make a positive impact on student mental health!
+Are you passionate about improving the mental health of higher education students? We are! Join our team in developing an Android application that aims to reduce student stress levels through medical consultation, stress management tools, and resources. We welcome all contributors who share our mission and want to make a difference in the lives of students. Let's collaborate and make this project a success!
