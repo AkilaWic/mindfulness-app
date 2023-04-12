@@ -1,12 +1,12 @@
 package com.example.mindfulness;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.View;
 import android.widget.ProgressBar;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -31,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
                 finish();
             }
         }, 3000);
+
 
     }
 }
