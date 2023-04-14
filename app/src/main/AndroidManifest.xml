@@ -24,6 +24,27 @@
             android:name=".Stress"
             android:label="Stress"></activity>
         <activity
+            android:name=".Depression"
+            android:label="Depression"></activity>
+        <activity
+            android:name=".Anxiety"
+            android:label="Anxiety"></activity>
+        <activity
+            android:name=".Adhd"
+            android:label="ADHD"></activity>
+        <activity
+            android:name=".Ptsd"
+            android:label="PTSD"></activity>
+        <activity
+            android:name=".Mania"
+            android:label="Mania"></activity>
+        <activity
+            android:name=".Pd"
+            android:label="Panic Disorder"></activity>
+        <activity
+            android:name=".Sd"
+            android:label="Sleeping Disorder"></activity>
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
