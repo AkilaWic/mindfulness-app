@@ -22,28 +22,28 @@
         </activity>
         <activity
             android:name=".Stress"
-            android:label="Stress"></activity>
+            android:label="Stress Test"></activity>
         <activity
             android:name=".Depression"
-            android:label="Depression"></activity>
+            android:label="Depression Test"></activity>
         <activity
             android:name=".Anxiety"
-            android:label="Anxiety"></activity>
+            android:label="Anxiety Test"></activity>
         <activity
             android:name=".Adhd"
-            android:label="ADHD"></activity>
+            android:label="ADHD Test"></activity>
         <activity
             android:name=".Ptsd"
-            android:label="PTSD"></activity>
+            android:label="PTSD Test"></activity>
         <activity
             android:name=".Mania"
-            android:label="Mania"></activity>
+            android:label="Mania Test"></activity>
         <activity
             android:name=".Pd"
-            android:label="Panic Disorder"></activity>
+            android:label="Panic Disorder Test"></activity>
         <activity
             android:name=".Sd"
-            android:label="Sleeping Disorder"></activity>
+            android:label="Sleeping Disorder Test"></activity>
         <activity
             android:name=".MainActivity"
             android:exported="true">
