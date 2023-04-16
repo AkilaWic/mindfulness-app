@@ -48,6 +48,9 @@
             android:name=".TestAgreement"
             android:label="Before You Begin"></activity>
         <activity
+            android:name=".TestInstructions"
+            android:label="Start"></activity>
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
