@@ -45,6 +45,9 @@
             android:name=".Sd"
             android:label="Sleeping Disorder Test"></activity>
         <activity
+            android:name=".TestAgreement"
+            android:label="Before You Begin"></activity>
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
