@@ -51,6 +51,12 @@
             android:name=".TestInstructions"
             android:label="Start"></activity>
         <activity
+            android:name=".AboutStress"
+            android:label="About Stress"></activity>
+        <activity
+            android:name=".AboutAdhd"
+            android:label="About ADHD"></activity>
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

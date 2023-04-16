@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_agreement">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="What Is ADHD?"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:justificationMode="inter_word"
+            android:text="ADHD, or Attention Deficit Hyperactivity Disorder, is a neurodevelopmental disorder that affects both children and adults. It is characterized by symptoms such as inattention, hyperactivity, and impulsivity, which can negatively impact daily functioning."
+            android:textColor="@color/black"
+            android:textSize="18dp"></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Symptoms of ADHD"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:justificationMode="inter_word"
+            android:text="Symptoms of ADHD can manifest in many ways. Inattention symptoms may include difficulty staying focused on tasks, being easily distracted, forgetfulness, and difficulty organizing tasks. Hyperactivity symptoms may include fidgeting, restlessness, and excessive talking or interrupting others. Impulsivity symptoms may include impulsive decision-making, interrupting others, and difficulty waiting for one's turn."
+            android:textColor="@color/black"
+            android:textSize="18dp"></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Effects of ADHD"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:justificationMode="inter_word"
+            android:text="The effects of ADHD can be significant, and can impact many areas of a person's life, including academic performance, work productivity, social relationships, and self-esteem. Children with ADHD may have difficulty completing homework or paying attention in class, and adults with ADHD may have difficulty with time management and completing tasks at work."
+            android:textColor="@color/black"
+            android:textSize="18dp"></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="What can we do?"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:justificationMode="inter_word"
+            android:text="There are many different treatment options available for ADHD, including medication and behavioral therapies. Medication can help to reduce symptoms of ADHD, such as hyperactivity and impulsivity. Behavioral therapies, such as cognitive-behavioral therapy or psychoeducation, can help individuals with ADHD learn coping strategies and develop skills to manage their symptoms.\n\nIn addition to medication and therapy, there are also lifestyle changes that can help to manage symptoms of ADHD. These may include regular exercise, a healthy diet, and stress-reducing activities such as mindfulness or yoga. It is important for individuals with ADHD to work with healthcare professionals to find the right combination of treatments and strategies that work best for them."
+            android:textColor="@color/black"
+            android:textSize="18dp"></TextView>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_agreement">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="What Is Stress?"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:justificationMode="inter_word"
+            android:text="Stress is a physiological and psychological response to various demands and challenges that we face in our daily lives. It is a normal and natural part of life, but it can also have negative effects on our health and wellbeing if it is experienced excessively or chronically."
+            android:textColor="@color/black"
+            android:textSize="18dp"></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Symptoms of stress"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:justificationMode="inter_word"
+            android:text="Symptoms of stress can manifest in many ways, including physical, emotional, cognitive, and behavioral symptoms. Some common physical symptoms include headaches, muscle tension, fatigue, digestive problems, and sleep disturbances. Emotional symptoms can include anxiety, irritability, and depression. Cognitive symptoms may include difficulty concentrating or making decisions, and memory problems. Behavioral symptoms can include changes in appetite, increased alcohol or drug use, and avoidance of social situations."
+            android:textColor="@color/black"
+            android:textSize="18dp"></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Effects of stress"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:justificationMode="inter_word"
+            android:text="The effects of stress can be both short-term and long-term. Short-term effects may include increased heart rate, breathing rate, and blood pressure, which can help us respond to stressful situations. However, if stress is prolonged or chronic, it can have negative effects on our physical and mental health, including increased risk of cardiovascular disease, obesity, diabetes, and depression."
+            android:textColor="@color/black"
+            android:textSize="18dp"></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="What can we do?"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:justificationMode="inter_word"
+            android:text="There are many different strategies that can be used to manage and cope with stress. Some of these include cognitive-behavioral therapy, relaxation techniques such as deep breathing or meditation, exercise, and social support. It is important to identify and manage stress in order to maintain good health and wellbeing."
+            android:textColor="@color/black"
+            android:textSize="18dp"></TextView>
+
+    </LinearLayout>
+</ScrollView>
