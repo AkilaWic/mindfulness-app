@@ -1,6 +1,8 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@drawable/main_bg">
 
     <GridLayout
         android:layout_width="match_parent"
@@ -19,9 +21,12 @@
             android:layout_height="150dp"
             android:layout_gravity="left"
             android:layout_margin="10dp"
-            android:background="@color/purple_200"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:textAlignment="center"
             android:text="Stress"
-            android:textSize="25sp" />
+            android:textSize="25sp"
+            tools:ignore="RtlCompat" />
 
         <TextView
             android:id="@+id/depression"
@@ -29,9 +34,12 @@
             android:layout_height="150dp"
             android:layout_gravity="right"
             android:layout_margin="10dp"
-            android:background="@color/purple_200"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:textAlignment="center"
             android:text="Depression"
-            android:textSize="25sp" />
+            android:textSize="25sp"
+            tools:ignore="RtlCompat" />
 
         <TextView
             android:id="@+id/anxiety"
@@ -39,9 +47,12 @@
             android:layout_height="150dp"
             android:layout_gravity="left"
             android:layout_margin="10dp"
-            android:background="@color/purple_200"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:textAlignment="center"
             android:text="Anxiety"
-            android:textSize="25sp" />
+            android:textSize="25sp"
+            tools:ignore="RtlCompat" />
 
         <TextView
             android:id="@+id/adhd"
@@ -49,9 +60,12 @@
             android:layout_height="150dp"
             android:layout_gravity="right"
             android:layout_margin="10dp"
-            android:background="@color/purple_200"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:textAlignment="center"
             android:text="ADHD"
-            android:textSize="25sp" />
+            android:textSize="25sp"
+            tools:ignore="RtlCompat" />
 
         <TextView
             android:id="@+id/ptsd"
@@ -60,9 +74,12 @@
             android:layout_gravity="left"
             android:layout_margin="10dp"
             android:layout_weight="1"
-            android:background="@color/purple_200"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:textAlignment="center"
             android:text="PTSD"
-            android:textSize="25sp" />
+            android:textSize="25sp"
+            tools:ignore="RtlCompat" />
 
         <TextView
             android:id="@+id/mania"
@@ -70,9 +87,12 @@
             android:layout_height="150dp"
             android:layout_gravity="right"
             android:layout_margin="10dp"
-            android:background="@color/purple_200"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:textAlignment="center"
             android:text="Mania"
-            android:textSize="25sp" />
+            android:textSize="25sp"
+            tools:ignore="RtlCompat" />
 
         <TextView
             android:id="@+id/pd"
@@ -80,9 +100,12 @@
             android:layout_height="150dp"
             android:layout_gravity="left"
             android:layout_margin="10dp"
-            android:background="@color/purple_200"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:textAlignment="center"
             android:text="Panic Disorder"
-            android:textSize="25sp" />
+            android:textSize="25sp"
+            tools:ignore="RtlCompat" />
 
         <TextView
             android:id="@+id/sd"
@@ -90,9 +113,12 @@
             android:layout_height="150dp"
             android:layout_gravity="right"
             android:layout_margin="10dp"
-            android:background="@color/purple_200"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:textAlignment="center"
             android:text="Sleeping Disorder"
-            android:textSize="25sp" />
+            android:textSize="25sp"
+            tools:ignore="RtlCompat" />
 
     </GridLayout>
 </ScrollView>
