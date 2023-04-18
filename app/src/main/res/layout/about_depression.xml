@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_agreement">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="What Is Depression?"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:justificationMode="inter_word"
+            android:text="Depression is a common and serious mental health disorder that affects millions of people worldwide. It is characterized by persistent feelings of sadness, hopelessness, and a loss of interest or pleasure in activities that were once enjoyable."
+            android:textColor="@color/black"
+            android:textSize="18dp"></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Symptoms of Depression"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:justificationMode="inter_word"
+            android:text="Symptoms of depression can manifest in many ways, including physical, emotional, cognitive, and behavioral symptoms. Physical symptoms can include changes in appetite or sleep patterns, fatigue, and physical pain. Emotional symptoms may include feelings of sadness, emptiness, or hopelessness, and difficulty experiencing positive emotions. Cognitive symptoms can include difficulty concentrating, making decisions, and remembering things. Behavioral symptoms may include withdrawing from social activities, reduced productivity, and suicidal thoughts or behaviors."
+            android:textColor="@color/black"
+            android:textSize="18dp"></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Effects of Depression"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:justificationMode="inter_word"
+            android:text="The effects of depression can be significant and can impact many areas of a person's life, including academic or work performance, social relationships, and overall quality of life. If left untreated, depression can lead to more severe mental health disorders, such as anxiety or substance abuse."
+            android:textColor="@color/black"
+            android:textSize="18dp"></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="What can we do?"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:justificationMode="inter_word"
+            android:text="There are many different treatment options available for depression, including medication and psychotherapy. Antidepressant medication can help to reduce symptoms of depression by altering the balance of certain chemicals in the brain. Psychotherapy, such as cognitive-behavioral therapy or interpersonal therapy, can help individuals learn coping strategies and develop skills to manage their symptoms. In addition to medication and therapy, there are also lifestyle changes that can help to manage symptoms of depression. These may include regular exercise, a healthy diet, and stress-reducing activities such as meditation or yoga. It is important for individuals with depression to work with healthcare professionals to find the right combination of treatments and strategies that work best for them."
+            android:textColor="@color/black"
+            android:textSize="18dp"></TextView>
+
+    </LinearLayout>
+</ScrollView>

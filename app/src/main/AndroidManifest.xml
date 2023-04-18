@@ -60,6 +60,9 @@
             android:name=".AboutAnxiety"
             android:label="About Anxiety"></activity>
         <activity
+            android:name=".AboutDepression"
+            android:label="About Depression"></activity>
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
