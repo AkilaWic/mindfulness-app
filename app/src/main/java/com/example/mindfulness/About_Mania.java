@@ -4,7 +4,7 @@ import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class AboutDepression extends AppCompatActivity {
+public class About_Mania extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

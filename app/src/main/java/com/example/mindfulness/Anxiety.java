@@ -34,7 +34,7 @@ public class Anxiety extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 //Create new intent
-                Intent about = new Intent(Anxiety.this, AboutAnxiety.class);
+                Intent about = new Intent(Anxiety.this, About_Anxiety.class);
                 startActivity(about);
             }
         });

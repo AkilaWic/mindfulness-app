@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_agreement">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="What Is Mania?"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:justificationMode="inter_word"
+            android:text="Mania is a mental health condition characterized by elevated, expansive, or irritable mood, along with increased energy, reduced need for sleep, and an enhanced sense of self-esteem or grandiosity. Mania is most commonly associated with bipolar disorder, but it can also occur in other mental health conditions."
+            android:textColor="@color/black"
+            android:textSize="18dp"></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Symptoms of Mania"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:justificationMode="inter_word"
+            android:text="Symptoms of mania can manifest in many ways, including behavioral, emotional, cognitive, and physical symptoms. Behavioral symptoms can include engaging in risky or impulsive behaviors, such as excessive spending, substance abuse, or sexual indiscretions. Emotional symptoms may include feelings of euphoria, irritability, or agitation. Cognitive symptoms can include racing thoughts, distractibility, and poor judgment. Physical symptoms may include reduced need for sleep, increased energy, and restlessness."
+            android:textColor="@color/black"
+            android:textSize="18dp"></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Effects of Mania"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:justificationMode="inter_word"
+            android:text="The effects of mania can be significant and can impact many areas of a person's life, including academic or work performance, social relationships, and overall quality of life. Mania can be a source of great creativity and productivity in some individuals, but it can also lead to problems with impulse control, interpersonal relationships, and financial stability. Mania can also progress to a more severe and potentially life-threatening condition known as psychosis."
+            android:textColor="@color/black"
+            android:textSize="18dp"></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="What can we do?"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:justificationMode="inter_word"
+            android:text="Treatment options for mania typically involve medication and psychotherapy. Mood stabilizers, such as lithium or anticonvulsants, can help to reduce the symptoms of mania and prevent relapses. Psychotherapy, such as cognitive-behavioral therapy or interpersonal therapy, can help individuals learn coping strategies and develop skills to manage their symptoms. In addition to medication and therapy, there are also lifestyle changes that can help to manage symptoms of mania. These may include regular exercise, a healthy diet, and stress-reducing activities such as mindfulness or meditation. It is important for individuals with mania to work with healthcare professionals to find the right combination of treatments and strategies that work best for them."
+            android:textColor="@color/black"
+            android:textSize="18dp"></TextView>
+
+    </LinearLayout>
+</ScrollView>

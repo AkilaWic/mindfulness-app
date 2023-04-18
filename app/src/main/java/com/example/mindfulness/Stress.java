@@ -34,7 +34,7 @@ public class Stress extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 //Create new intent
-                Intent about = new Intent(Stress.this, AboutStress.class);
+                Intent about = new Intent(Stress.this, About_Stress.class);
                 startActivity(about);
             }
         });

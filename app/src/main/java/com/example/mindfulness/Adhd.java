@@ -34,7 +34,7 @@ public class Adhd extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 //Create new intent
-                Intent about = new Intent(Adhd.this, AboutAdhd.class);
+                Intent about = new Intent(Adhd.this, About_Adhd.class);
                 startActivity(about);
             }
         });

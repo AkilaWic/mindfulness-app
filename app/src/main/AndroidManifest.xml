@@ -51,17 +51,20 @@
             android:name=".TestInstructions"
             android:label="Start"></activity>
         <activity
-            android:name=".AboutStress"
+            android:name=".About_Stress"
             android:label="About Stress"></activity>
         <activity
-            android:name=".AboutAdhd"
+            android:name=".About_Adhd"
             android:label="About ADHD"></activity>
         <activity
-            android:name=".AboutAnxiety"
+            android:name=".About_Anxiety"
             android:label="About Anxiety"></activity>
         <activity
-            android:name=".AboutDepression"
+            android:name=".About_Depression"
             android:label="About Depression"></activity>
+        <activity
+            android:name=".About_Mania"
+            android:label="About Mania"></activity>
         <activity
             android:name=".MainActivity"
             android:exported="true">

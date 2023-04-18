@@ -4,12 +4,12 @@ import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class AboutAnxiety extends AppCompatActivity {
+public class About_Stress extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.about_anxiety);
+        setContentView(R.layout.about_stress);
 
     }
 }
