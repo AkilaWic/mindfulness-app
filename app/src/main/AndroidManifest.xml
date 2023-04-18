@@ -57,6 +57,9 @@
             android:name=".AboutAdhd"
             android:label="About ADHD"></activity>
         <activity
+            android:name=".AboutAnxiety"
+            android:label="About Anxiety"></activity>
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

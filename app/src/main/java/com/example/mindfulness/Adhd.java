@@ -27,7 +27,7 @@ public class Adhd extends AppCompatActivity {
             }
         });
 
-        //About Stress
+        //About ADHD
         TextView about = (TextView) findViewById(R.id.about);
 
         about.setOnClickListener(new View.OnClickListener() {

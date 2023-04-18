@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_agreement">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="What Is Anxiety?"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:justificationMode="inter_word"
+            android:text="Anxiety is a normal and natural human emotion, but it can become a disorder when it is excessive or chronic, and negatively impacts daily life. Anxiety disorders are the most common mental health disorders, affecting millions of people worldwide."
+            android:textColor="@color/black"
+            android:textSize="18dp"></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Symptoms of Anxiety"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:justificationMode="inter_word"
+            android:text="Symptoms of anxiety can manifest in many ways, including physical, emotional, cognitive, and behavioral symptoms. Physical symptoms can include increased heart rate, sweating, shaking, and difficulty breathing. Emotional symptoms may include feelings of fear or panic, worry, and irritability. Cognitive symptoms can include racing thoughts, difficulty concentrating, and a sense of impending doom. Behavioral symptoms may include avoiding social situations, difficulty sleeping, and performing compulsive behaviors."
+            android:textColor="@color/black"
+            android:textSize="18dp"></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Effects of Anxiety"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:justificationMode="inter_word"
+            android:text="The effects of anxiety can be significant and can impact many areas of a person's life, including academic or work performance, social relationships, and overall quality of life. If left untreated, anxiety can lead to more severe mental health disorders, such as depression or substance abuse."
+            android:textColor="@color/black"
+            android:textSize="18dp"></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="What can we do?"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:justificationMode="inter_word"
+            android:text="There are many different treatment options available for anxiety disorders, including medication and psychotherapy. Medication can help to reduce symptoms of anxiety, such as excessive worrying or panic attacks. Psychotherapy, such as cognitive-behavioral therapy or exposure therapy, can help individuals learn coping strategies and develop skills to manage their symptoms.\n\nIn addition to medication and therapy, there are also lifestyle changes that can help to manage symptoms of anxiety. These may include regular exercise, a healthy diet, and stress-reducing activities such as mindfulness or meditation. It is important for individuals with anxiety to work with healthcare professionals to find the right combination of treatments and strategies that work best for them."
+            android:textColor="@color/black"
+            android:textSize="18dp"></TextView>
+
+    </LinearLayout>
+</ScrollView>
