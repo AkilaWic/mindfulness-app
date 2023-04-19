@@ -9,7 +9,7 @@ public class About_Depression extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.about_mania);
+        setContentView(R.layout.about_depression);
 
     }
 }

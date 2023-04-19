@@ -66,6 +66,9 @@
             android:name=".About_Mania"
             android:label="About Mania"></activity>
         <activity
+            android:name=".StressQuiz"
+            android:label="Stress Test"></activity>
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
