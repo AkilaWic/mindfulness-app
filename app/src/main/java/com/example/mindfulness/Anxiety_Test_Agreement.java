@@ -7,24 +7,23 @@ import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class Anxiety_Test_Instructions extends AppCompatActivity {
+public class Anxiety_Test_Agreement extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.anxiety_test_instruction);
+        setContentView(R.layout.anxiety_test_agreement);
 
-        //Depression Quiz
-        Button test = (Button) findViewById(R.id.goto_test);
+        //Test Instruction
+        Button ti = (Button) findViewById(R.id.agree);
 
-        test.setOnClickListener(new View.OnClickListener() {
+        ti.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 //Create new intent
-                Intent test = new Intent(Anxiety_Test_Instructions.this, AnxietyQuiz.class);
-                startActivity(test);
+                Intent ti = new Intent(Anxiety_Test_Agreement.this, Anxiety_Test_Instructions.class);
+                startActivity(ti);
             }
         });
-
     }
 }

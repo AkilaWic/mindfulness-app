@@ -22,7 +22,7 @@ public class Anxiety extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 //Create new intent
-                Intent taketest = new Intent(Anxiety.this, Stress_Test_Agreement.class);
+                Intent taketest = new Intent(Anxiety.this, Anxiety_Test_Agreement.class);
                 startActivity(taketest);
             }
         });

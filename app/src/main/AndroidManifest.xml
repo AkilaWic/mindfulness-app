@@ -60,6 +60,13 @@
             android:label="Start"></activity>
 
         <activity
+            android:name=".Anxiety_Test_Agreement"
+            android:label="Before You Begin"></activity>
+        <activity
+            android:name=".Anxiety_Test_Instructions"
+            android:label="Start"></activity>
+
+        <activity
             android:name=".About_Stress"
             android:label="About Stress"></activity>
         <activity
@@ -74,12 +81,17 @@
         <activity
             android:name=".About_Mania"
             android:label="About Mania"></activity>
+
         <activity
             android:name=".StressQuiz"
             android:label="Stress Test"></activity>
         <activity
             android:name=".DepressionQuiz"
             android:label="Depression Test"></activity>
+        <activity
+            android:name=".AnxietyQuiz"
+            android:label="Anxiety Test"></activity>
+
         <activity
             android:name=".MainActivity"
             android:exported="true">

@@ -1,12 +1,12 @@
 package com.example.mindfulness;
 
-public class DepressionQnA {
+public class AnxietyQnA {
 
     public static String question[] = {
-            "Depression Difficulty focusing on everyday task",
-            "Depression Finding no joy in life, or feeling like you never will again",
-            "Depression Being lethargic or having no energy",
-            "Eating too much, or too little",
+            "Anxiety Difficulty focusing on everyday task",
+            "Anxiety Finding no joy in life, or feeling like you never will again",
+            "Anxiety Being lethargic or having no energy",
+            "Anxiety Eating too much, or too little",
 
     };
 
