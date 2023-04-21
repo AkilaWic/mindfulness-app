@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_agreement"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:text="In order to take this test, you must be 18 years of age or older. By clicking 'I Agree' below, you are acknowledging that this is not a diagnostic tool and is intended for informational purposes only. This test should not be used as a replacement for consulting with a doctor or mental health professional. If you believe that you may be experiencing a mental health condition, it is important to seek help from a qualified resource. You are encouraged to share your test results with a healthcare professional.
+\n \n Please note that the mindfulness app, sponsors, partners, and advertisers are not liable for any loss, damages, or risks that may arise directly or indirectly from the use of this test. If you require immediate assistance, please call 119 or contact the National Institute of Mental Health in Sri Lanka at 0112 578 234."
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:textStyle="bold"></TextView>
+
+    <Button
+        android:id="@+id/agree"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="270dp"
+        android:text="I Agree">
+
+    </Button>
+
+</LinearLayout>

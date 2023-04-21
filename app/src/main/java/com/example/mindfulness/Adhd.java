@@ -22,7 +22,7 @@ public class Adhd extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 //Create new intent
-                Intent taketest = new Intent(Adhd.this, TestAgreement.class);
+                Intent taketest = new Intent(Adhd.this, Stress_Test_Agreement.class);
                 startActivity(taketest);
             }
         });

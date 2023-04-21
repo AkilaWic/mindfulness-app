@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_agreement"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:text="As you respond to the questions, please keep in mind the past 14 days and consider to what degree you have encountered difficulties with the following issues. Click on &quot;Continue&quot; to begin."
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"></TextView>
+
+    <Button
+        android:id="@+id/goto_test"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="350dp"
+        android:text="Continue">
+
+    </Button>
+
+</LinearLayout>

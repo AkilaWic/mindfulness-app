@@ -7,12 +7,12 @@ import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class TestAgreement extends AppCompatActivity {
+public class Depression_Test_Agreement extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.test_agreement);
+        setContentView(R.layout.depression_test_agreement);
 
         //Test Instruction
         Button ti = (Button) findViewById(R.id.agree);
@@ -21,7 +21,7 @@ public class TestAgreement extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 //Create new intent
-                Intent ti = new Intent(TestAgreement.this, TestInstructions.class);
+                Intent ti = new Intent(Depression_Test_Agreement.this, Depression_Test_Instructions.class);
                 startActivity(ti);
             }
         });

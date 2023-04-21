@@ -7,24 +7,23 @@ import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class TestInstructions extends AppCompatActivity {
+public class Stress_Test_Agreement extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.test_instructions);
+        setContentView(R.layout.stress_test_agreement);
 
-        //Stress Quiz
-        Button test = (Button) findViewById(R.id.goto_test);
+        //Stress Test Instruction
+        Button ti = (Button) findViewById(R.id.agree);
 
-        test.setOnClickListener(new View.OnClickListener() {
+        ti.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 //Create new intent
-                Intent test = new Intent(TestInstructions.this, StressQuiz.class);
-                startActivity(test);
+                Intent ti = new Intent(Stress_Test_Agreement.this, Stress_Test_Instructions.class);
+                startActivity(ti);
             }
         });
-
     }
 }

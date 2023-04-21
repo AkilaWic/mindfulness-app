@@ -11,7 +11,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
         android:gravity="center"
-        android:text="As you respond to the questions, please keep in mind the past 14 days and consider to what degree you have encountered difficulties with the following issues. Click on Continue to begin."
+        android:text="Please indicate whether any of the following events have happened to you within the past 12 months. To begin, tap the &quot;Continue&quot;"
         android:textColor="@color/black"
         android:textSize="20sp"
         android:textStyle="bold"></TextView>
@@ -20,7 +20,7 @@
         android:id="@+id/goto_test"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="350dp"
+        android:layout_marginTop="380dp"
         android:text="Continue">
 
     </Button>

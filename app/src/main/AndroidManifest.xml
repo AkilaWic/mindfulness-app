@@ -44,12 +44,21 @@
         <activity
             android:name=".Sd"
             android:label="Sleeping Disorder Test"></activity>
+
         <activity
-            android:name=".TestAgreement"
+            android:name=".Stress_Test_Agreement"
             android:label="Before You Begin"></activity>
         <activity
-            android:name=".TestInstructions"
+            android:name=".Stress_Test_Instructions"
             android:label="Start"></activity>
+
+        <activity
+            android:name=".Depression_Test_Agreement"
+            android:label="Before You Begin"></activity>
+        <activity
+            android:name=".Depression_Test_Instructions"
+            android:label="Start"></activity>
+
         <activity
             android:name=".About_Stress"
             android:label="About Stress"></activity>
@@ -68,6 +77,9 @@
         <activity
             android:name=".StressQuiz"
             android:label="Stress Test"></activity>
+        <activity
+            android:name=".DepressionQuiz"
+            android:label="Depression Test"></activity>
         <activity
             android:name=".MainActivity"
             android:exported="true">
