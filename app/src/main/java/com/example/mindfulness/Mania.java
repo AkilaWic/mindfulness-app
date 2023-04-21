@@ -22,7 +22,7 @@ public class Mania extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 //Create new intent
-                Intent taketest = new Intent(Mania.this, Stress_Test_Agreement.class);
+                Intent taketest = new Intent(Mania.this, Mania_Test_Agreement.class);
                 startActivity(taketest);
             }
         });

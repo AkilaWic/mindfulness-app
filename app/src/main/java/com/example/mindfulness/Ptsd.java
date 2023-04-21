@@ -21,7 +21,7 @@ public class Ptsd extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 //Create new intent
-                Intent taketest = new Intent(Ptsd.this, Stress_Test_Agreement.class);
+                Intent taketest = new Intent(Ptsd.this, Ptsd_Test_Agreement.class);
                 startActivity(taketest);
             }
         });

@@ -20,6 +20,8 @@
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
+
+
         <activity
             android:name=".Stress"
             android:label="Stress Test"></activity>
@@ -45,6 +47,7 @@
             android:name=".Sd"
             android:label="Sleeping Disorder Test"></activity>
 
+
         <activity
             android:name=".Stress_Test_Agreement"
             android:label="Before You Begin"></activity>
@@ -65,6 +68,42 @@
         <activity
             android:name=".Anxiety_Test_Instructions"
             android:label="Start"></activity>
+
+        <activity
+            android:name=".Adhd_Test_Agreement"
+            android:label="Before You Begin"></activity>
+        <activity
+            android:name=".Adhd_Test_Instructions"
+            android:label="Start"></activity>
+
+        <activity
+            android:name=".Ptsd_Test_Agreement"
+            android:label="Before You Begin"></activity>
+        <activity
+            android:name=".Ptsd_Test_Instructions"
+            android:label="Start"></activity>
+
+        <activity
+            android:name=".Mania_Test_Agreement"
+            android:label="Before You Begin"></activity>
+        <activity
+            android:name=".Mania_Test_Instructions"
+            android:label="Start"></activity>
+
+        <activity
+            android:name=".Pd_Test_Agreement"
+            android:label="Before You Begin"></activity>
+        <activity
+            android:name=".Pd_Test_Instructions"
+            android:label="Start"></activity>
+
+        <activity
+            android:name=".Sd_Test_Agreement"
+            android:label="Before You Begin"></activity>
+        <activity
+            android:name=".Sd_Test_Instructions"
+            android:label="Start"></activity>
+
 
         <activity
             android:name=".About_Stress"
@@ -91,6 +130,21 @@
         <activity
             android:name=".AnxietyQuiz"
             android:label="Anxiety Test"></activity>
+        <activity
+            android:name=".AdhdQuiz"
+            android:label="ADHD Test"></activity>
+        <activity
+            android:name=".PtsdQuiz"
+            android:label="PTSD Test"></activity>
+        <activity
+            android:name=".ManiaQuiz"
+            android:label="Mania Test"></activity>
+        <activity
+            android:name=".PdQuiz"
+            android:label="Panic Disorder Test"></activity>
+        <activity
+            android:name=".SdQuiz"
+            android:label="Sleeping Disorder Test"></activity>
 
         <activity
             android:name=".MainActivity"

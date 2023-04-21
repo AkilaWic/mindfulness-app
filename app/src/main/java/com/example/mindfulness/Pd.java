@@ -21,7 +21,7 @@ public class Pd extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 //Create new intent
-                Intent taketest = new Intent(Pd.this, Stress_Test_Agreement.class);
+                Intent taketest = new Intent(Pd.this, Pd_Test_Agreement.class);
                 startActivity(taketest);
             }
         });
