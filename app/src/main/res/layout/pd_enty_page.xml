@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/pd"
+    android:background="@drawable/pdent"
     android:gravity="center"
     android:orientation="vertical">
 
@@ -11,24 +11,27 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:text="This is 6 question test for diagnosing, monitoring, and measuring the severity of stress"
-        android:textColor="@color/white"
-        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:textSize="23sp"
         android:textStyle="bold">
 
     </TextView>
 
     <Button
         android:id="@+id/taketest"
-        android:layout_width="200dp"
+        android:layout_width="275dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="350dp"
+        android:background="@color/green"
         android:text="Take Test">
 
     </Button>
 
     <Button
-        android:layout_width="200dp"
+        android:layout_width="275dp"
+        android:layout_marginTop="6dp"
         android:layout_height="wrap_content"
+        android:background="@color/green"
         android:text="See History">
 
     </Button>
@@ -38,7 +41,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:text="About Panic Disorder"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         android:textSize="18sp">
 
     </TextView>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/anxietyins"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:text="Prior to starting, take a moment to think about the last six months and how often you have faced the following challenges. Click &quot;Continue&quot; to begin."
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:typeface="monospace"></TextView>
+
+    <Button
+        android:id="@+id/goto_test"
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="410dp"
+        android:background="@color/green"
+        android:text="Continue">
+
+    </Button>
+
+</LinearLayout>

@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -111,4 +112,17 @@ public class HomeActivity extends AppCompatActivity {
             }
         });
     }
+
+    @Override
+    public void onBackPressed() {
+        if (getClass() == HomeActivity.class) {
+            // Show a toast message indicating that the back button is disabled
+            Toast.makeText(this, "Back button is disabled", Toast.LENGTH_SHORT).show();
+        } else {
+            // Launch the activity you want to show
+            Intent intent = new Intent(this, HomeActivity.class);
+            startActivity(intent);
+        }
+    }
+
 }

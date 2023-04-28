@@ -1,6 +1,6 @@
 package com.example.mindfulness;
 
-import android.app.AlertDialog;
+import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
@@ -11,10 +11,11 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 
 public class AdhdQuiz extends AppCompatActivity implements View.OnClickListener {
+
+    String passStatus = "";
 
     // Define TextViews and Buttons that will be used in the quiz
     TextView totalQuestionsTextView;
@@ -27,6 +28,7 @@ public class AdhdQuiz extends AppCompatActivity implements View.OnClickListener 
     int totalQuestion = AdhdQnA.question.length;
     int currentQuestionIndex = 0;
     String selectedAnswer = "";
+    String evaluation = "";
 
     // List to store the question order
     List<Integer> questionOrderList;
@@ -55,15 +57,17 @@ public class AdhdQuiz extends AppCompatActivity implements View.OnClickListener 
         // Display total number of questions
         totalQuestionsTextView.setText("Total questions : " + totalQuestion);
 
+
         // Create a list with the order of the questions
         questionOrderList = new ArrayList<>();
         for (int i = 0; i < totalQuestion; i++) {
             questionOrderList.add(i);
         }
-        Collections.shuffle(questionOrderList);
+        //Collections.shuffle(questionOrderList);
 
         // Load the first question
         loadNewQuestion();
+
     }
 
     @Override
@@ -114,28 +118,49 @@ public class AdhdQuiz extends AppCompatActivity implements View.OnClickListener 
         ansD.setText(AdhdQnA.choices[questionIndex][3]);
     }
 
-    // Finish the quiz and display the results
     void finishQuiz() {
 
-        String passStatus = "";
-
         // Determine pass/fail status based on score
-        if (score > totalQuestion * 0.60) {
-            passStatus = "Passed";
+        if (score > totalQuestion * 0.70) {
+            passStatus = "Severe Risk";
+        } else if ((score >= totalQuestion * 0.4 && score <= totalQuestion * 0.7)) {
+            passStatus = "Moderate Risk";
         } else {
-            passStatus = "Failed";
+            passStatus = "Low Risk";
         }
-        new AlertDialog.Builder(this)
-                .setTitle(passStatus)
-                .setMessage("Score is " + score + " out of " + totalQuestion)
-                .setPositiveButton("Restart", (dialogInterface, i) -> restartQuiz())
-                .setCancelable(false)
-                .show();
+
+        if (passStatus == "Severe Risk") {
+            evaluation = "According to your responses, it appears that you may be exhibiting signs of severe risk. These symptoms seem to be significantly impacting your daily life and relationships. It's important to note that these results do not necessarily indicate that you have this, but we strongly advise you to initiate a discussion with a mental health specialist to explore potential treatment options.";
+        } else if (passStatus == "Moderate Risk") {
+            evaluation = "Based on your responses, it appears that you may be experiencing symptoms of moderate risk. These symptoms may be making it challenging for you to handle day-to-day activities and maintain healthy relationships. It's important to note that these results do not necessarily imply that you have this, but it may be beneficial to seek the guidance of a mental health expert to determine the best course of action.";
+        } else {
+            evaluation = "According to your responses, it appears that you may be experiencing symptoms of mild risk. Although these symptoms may not be significantly affecting your daily life, it's crucial to keep track of them. It's important to note that these results do not necessarily imply that you have this, but it may be beneficial to consult with a mental health expert to assess your situation and provide guidance on next steps.";
+        }
+
+
+        // Create intent to display results activity
+        Intent intent = new Intent(this, QuizResultActivity.class);
+
+        // Pass the score and total questions to the ResultsActivity
+        intent.putExtra("score", score);
+        intent.putExtra("totalQuestions", totalQuestion);
+        intent.putExtra("passStatus", passStatus);
+        intent.putExtra("evaluation", evaluation);
+
+
+        // Start the ResultsActivity
+        startActivity(intent);
+
+        // Finish the current activity
+        finish();
     }
 
     void restartQuiz() {
         score = 0;
         currentQuestionIndex = 0;
+        selectedAnswer = "";
+        // Collections.shuffle(questionOrderList);
         loadNewQuestion();
     }
+
 }

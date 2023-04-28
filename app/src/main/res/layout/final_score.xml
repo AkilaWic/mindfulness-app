@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/finalscore">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/risk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="36dp"
+            android:textColor="@color/black"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            android:typeface="serif"
+            tools:text="High Risk"></TextView>
+
+        <LinearLayout
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/background"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/marks"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="14dp"
+                android:layout_marginRight="15dp"
+                android:textColor="@color/black"
+                android:textSize="95sp"
+                android:textStyle="bold"
+                tools:text="18"></TextView>
+
+            <TextView
+                android:id="@+id/total_question"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/black"
+                android:textSize="28sp"
+                android:textStyle="bold"
+                tools:text="out of 39"></TextView>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/whatup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="36dp"
+            android:layout_marginRight="15dp"
+            android:gravity="center"
+            android:text="Your results indicate that you may be experincing some symtoms of depression. Based on your answers, living with these symptoms could be causing difficulty managing relationships and even the tasks of everyday life. These results do not mean that you have depression, but it may be time to start a conversation with a mental health professional. "
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:typeface="sans"></TextView>
+
+
+        <Button
+            android:id="@+id/retest"
+            android:layout_width="275dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="26dp"
+            android:background="@color/green"
+            android:text="Retake quiz"></Button>
+
+        <Button
+            android:id="@+id/r_home"
+            android:layout_width="275dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:background="@color/green"
+            android:text="Return to Home"></Button>
+
+        <Button
+            android:id="@+id/appointmentB"
+            android:layout_width="275dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:background="@color/green"
+            android:text="Make an appointment"></Button>
+
+
+    </LinearLayout>
+</ScrollView>

@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bg_agreement"
+    android:background="@drawable/quiz"
     android:padding="24dp"
     tools:context=".MainActivity">
 
@@ -19,11 +19,12 @@
         android:id="@+id/question"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="25dp"
+        android:layout_marginTop="35dp"
         android:text="This will be the question"
         android:textColor="@color/black"
         android:textSize="25dp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:typeface="serif" />
 
 
     <LinearLayout
@@ -39,6 +40,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
             android:backgroundTint="@color/white"
+            android:textStyle="bold"
             android:text="Ans A"
             android:textColor="@color/black" />
 
@@ -49,6 +51,7 @@
             android:layout_margin="5dp"
             android:backgroundTint="@color/white"
             android:text="Ans B"
+            android:textStyle="bold"
             android:textColor="@color/black" />
 
         <Button
@@ -57,6 +60,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
             android:backgroundTint="@color/white"
+            android:textStyle="bold"
             android:text="Ans C"
             android:textColor="@color/black" />
 
@@ -66,6 +70,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
             android:backgroundTint="@color/white"
+            android:textStyle="bold"
             android:text="Ans D"
             android:textColor="@color/black" />
 
@@ -77,6 +82,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/choices_layout"
         android:layout_marginTop="90dp"
+        android:background="@color/green"
         android:text="Next Question" />
 
 
